@@ -1,13 +1,9 @@
 {
-    "name": "MIG.Main",
-    "rootNamespace": "MIG.Main",
+    "name": "MIG.App",
+    "rootNamespace": "MIG.App",
     "references": [
         "GUID:946d02b7602fe2442ac46bbb2f409504",
-        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
-        "GUID:7c331909273ed9a4c9cc8aea32ca18fb",
-        "GUID:160555bd037daef44ba2b7037d045842",
-        "GUID:673d411e6da367243a3669d52be350d2",
-        "GUID:ce9397f4f62383d46bff9cd7d773e850"
+        "GUID:ca7c8a35fc0d78e468131a85d7c51362"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
