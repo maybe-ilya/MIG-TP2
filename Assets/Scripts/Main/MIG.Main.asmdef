@@ -1,0 +1,17 @@
+{
+    "name": "MIG.Main",
+    "rootNamespace": "MIG.Main",
+    "references": [
+        "GUID:946d02b7602fe2442ac46bbb2f409504",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

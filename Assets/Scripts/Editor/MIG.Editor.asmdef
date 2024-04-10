@@ -1,0 +1,18 @@
+{
+    "name": "MIG.Editor",
+    "rootNamespace": "MIG.Editor",
+    "references": [
+        "GUID:946d02b7602fe2442ac46bbb2f409504"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
