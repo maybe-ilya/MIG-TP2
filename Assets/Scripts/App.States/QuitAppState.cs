@@ -3,6 +3,8 @@ using MIG.API;
 using MIG.AppState;
 #if UNITY_EDITOR
 using UnityEditor;
+#else
+using UnityEngine;
 #endif
 
 namespace MIG.App.States
@@ -22,7 +24,7 @@ namespace MIG.App.States
 
         private void QuitAppInternal()
         {
-            _logger.Log(LogChannel,"Bye bye!");
+            _logger.Log(LogChannel, "Bye bye!");
 #if UNITY_EDITOR
             EditorApplication.ExitPlaymode();
 #else
