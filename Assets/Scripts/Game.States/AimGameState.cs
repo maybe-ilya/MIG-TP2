@@ -42,7 +42,6 @@ namespace MIG.Game.States
         public void Exit()
         {
             _logger.Log(LogChannel, "Aiming Finished");
-            _pathVisualiazer.Hide();
             _inputHandler.OnAiming -= OnAiming;
             _inputHandler.OnAimingFinish -= OnAimingFinish;
         }
@@ -58,7 +57,6 @@ namespace MIG.Game.States
                 origin = _projectileShooter.ShootPoint,
                 force = _projectileShooter.ForceVector,
                 mass = _projectileShooter.ProjectileMass,
-                pathSegments = 50
             };
             _pathVisualiazer.Visualize(_pathCalculator.CalculatePath(@params));
         }

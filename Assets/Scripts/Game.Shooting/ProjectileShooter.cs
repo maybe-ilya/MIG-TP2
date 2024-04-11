@@ -13,10 +13,10 @@ namespace MIG.Game.Shooting
 
         [SerializeField]
         private float _forceAmount;
-        
+
         private IProjectileFactory _projectileFactory;
         private IProjectile _projectile;
-        
+
         public Vector3 ShootPoint => _shootTransform.position;
         public Vector3 ForceVector { get; private set; }
         public float ProjectileMass => _projectile.Mass;
@@ -25,7 +25,7 @@ namespace MIG.Game.Shooting
         {
             _projectileFactory = projectileFactory;
         }
-        
+
         public void Prepare()
         {
             _projectile = _projectileFactory.Create(ShootPoint);
@@ -33,7 +33,7 @@ namespace MIG.Game.Shooting
 
         public void LookAt(Vector3 position)
         {
-            ForceVector = (position - ShootPoint).normalized * _forceAmount;
+            ForceVector = (position - ShootPoint) * _forceAmount;
         }
 
         public void Shoot()

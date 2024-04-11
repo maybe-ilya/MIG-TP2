@@ -7,6 +7,5 @@ namespace MIG.Game
         public Vector3 origin;
         public Vector3 force;
         public float mass;
-        public int pathSegments;
     }
 }

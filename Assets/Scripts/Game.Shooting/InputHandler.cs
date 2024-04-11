@@ -58,9 +58,8 @@ namespace MIG.Game.Shooting
             var cameraPosition = camera.transform.position;
             var screenPosition = _controls.Player.Aiming.ReadValue<Vector2>();
             var worldPosition =
-                camera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, cameraPosition.z));
-            worldPosition.z *= -1;
-            
+                camera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, -cameraPosition.z));
+
             OnAiming?.Invoke(worldPosition);
         }
     }

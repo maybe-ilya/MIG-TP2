@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -6809637094858117535}
   - component: {fileID: 5054465683237501910}
   - component: {fileID: -1310545878479192593}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 7099901820950410785}
   - component: {fileID: 2825022422910284611}
   - component: {fileID: 5590714316223714913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -21,6 +21,10 @@ namespace MIG.Main
         [SerializeField]
         [CheckObject]
         private PathVisualizer _pathVisualizerPrefab;
+
+        [SerializeField]
+        [CheckObject]
+        private PathCalculatorSettings _pathCalculatorSettings;
         
         public override void Register(IContainerBuilder builder)
         {
@@ -47,6 +51,7 @@ namespace MIG.Main
             builder.RegisterComponentOnNewGameObject<InputHandler>(Lifetime.Scoped, "[INPUT]")
                 .AsImplementedInterfaces();
             builder.RegisterComponentInNewPrefab(_pathVisualizerPrefab, Lifetime.Scoped).AsImplementedInterfaces();
+            builder.RegisterInstance(_pathCalculatorSettings);
         }
         
         private void OnContainerBuild(IObjectResolver resolver)
