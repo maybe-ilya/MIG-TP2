@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0afa43daa805aa04bb7128c8e336a51c, type: 3}
   m_Name: PathCalculatorSettings
   m_EditorClassIdentifier: 
-  _pathSegments: 100
+  _pathSegments: 200
   _collisionMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 64
+  _deltaTimeType: 2
+  _constDeltaTime: 1

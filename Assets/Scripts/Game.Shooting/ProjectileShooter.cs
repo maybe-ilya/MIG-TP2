@@ -33,7 +33,8 @@ namespace MIG.Game.Shooting
 
         public void LookAt(Vector3 position)
         {
-            ForceVector = (position - ShootPoint) * _forceAmount;
+            // ForceVector = (Vector3.forward + position - ShootPoint) * _forceAmount;
+            ForceVector = (Vector3.forward + position) * _forceAmount;
         }
 
         public void Shoot()

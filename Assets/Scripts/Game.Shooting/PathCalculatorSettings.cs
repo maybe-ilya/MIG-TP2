@@ -11,8 +11,18 @@ namespace MIG.Game.Shooting
         [SerializeField]
         private LayerMask _collisionMask;
 
+        [SerializeField]
+        private PathDeltaTimeType _deltaTimeType;
+
+        [SerializeField]
+        private float _constDeltaTime;
+        
         public int PathSegments => _pathSegments;
 
         public LayerMask CollisionMask => _collisionMask;
+
+        public PathDeltaTimeType DeltaTimeType => _deltaTimeType;
+
+        public float ConstDeltaTime => _constDeltaTime;
     }
 }

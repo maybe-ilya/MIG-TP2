@@ -44,22 +44,16 @@ namespace MIG.Game.Shooting
 
         private void UpdateMarker(Vector3[] path)
         {
-            Vector3 position, upVector;
+            Vector3 position, upVector = Vector3.up;
 
             switch (path.Length)
             {
                 case 0:
-                {
                     position = Vector3.zero;
-                    upVector = Vector3.up;
-                }
                     break;
 
                 case 1:
-                {
                     position = path[0];
-                    upVector = Vector3.up;
-                }
                     break;
 
                 default:
@@ -75,7 +69,6 @@ namespace MIG.Game.Shooting
                     else
                     {
                         position = right;
-                        upVector = (right - left).normalized;
                     }
                 }
                     break;
