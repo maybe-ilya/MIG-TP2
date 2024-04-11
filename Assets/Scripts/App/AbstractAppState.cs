@@ -6,7 +6,7 @@ namespace MIG.App
     public abstract class AbstractAppState : IAppState
     {
         protected IAppStateService AppStateService { get; private set; }
-        protected LogChannel StateLogChannel = "[APP]";
+        protected LogChannel LogChannel = "[APP]";
 
         public void SetStateService(IAppStateService appStateService)
         {

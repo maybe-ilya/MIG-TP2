@@ -1,0 +1,18 @@
+{
+    "name": "MIG.Game.Shooting",
+    "rootNamespace": "MIG.Game.Shooting",
+    "references": [
+        "GUID:946d02b7602fe2442ac46bbb2f409504",
+        "GUID:c690e67ba17cefd40a37c4ea9886b05d",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -22,7 +22,7 @@ namespace MIG.App.States
 
         private void QuitAppInternal()
         {
-            _logger.Log(StateLogChannel,"Bye bye!");
+            _logger.Log(LogChannel,"Bye bye!");
 #if UNITY_EDITOR
             EditorApplication.ExitPlaymode();
 #else

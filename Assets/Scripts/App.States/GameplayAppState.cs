@@ -28,9 +28,9 @@ namespace MIG.App.States
 
         private async UniTaskVoid LoadGameplayScene()
         {
-            _logger.Log(StateLogChannel, "Loading gameplay scene");
+            _logger.Log(LogChannel, "Loading gameplay scene");
             await _sceneLoadService.LoadSceneAsync(_settings.GameplaySceneIndex);
-            _logger.Log(StateLogChannel,"Gameplay scene loaded");
+            _logger.Log(LogChannel,"Gameplay scene loaded");
         }
     }
 }

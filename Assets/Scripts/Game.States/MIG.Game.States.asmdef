@@ -1,0 +1,18 @@
+{
+    "name": "MIG.Game.States",
+    "rootNamespace": "MIG.Game.States",
+    "references": [
+        "GUID:946d02b7602fe2442ac46bbb2f409504",
+        "GUID:c690e67ba17cefd40a37c4ea9886b05d",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

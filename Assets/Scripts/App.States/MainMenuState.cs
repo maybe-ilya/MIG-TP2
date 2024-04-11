@@ -28,9 +28,9 @@ namespace MIG.App.States
 
         private async UniTaskVoid LoadMainMenuScene()
         {
-            _logger.Log(StateLogChannel,"Going to main menu");
+            _logger.Log(LogChannel,"Going to main menu");
             await _sceneLoadService.LoadSceneAsync(_settings.MainMenuSceneIndex);
-            _logger.Log(StateLogChannel,"Main menu loaded");
+            _logger.Log(LogChannel,"Main menu loaded");
         }
     }
 }

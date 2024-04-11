@@ -1,0 +1,17 @@
+{
+    "name": "MIG.Game",
+    "rootNamespace": "MIG.Game",
+    "references": [
+        "GUID:946d02b7602fe2442ac46bbb2f409504",
+        "GUID:ca7c8a35fc0d78e468131a85d7c51362"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
