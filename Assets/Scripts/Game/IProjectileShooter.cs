@@ -10,7 +10,7 @@ namespace MIG.Game
 
         void Prepare();
         void LookAt(Vector3 position);
-        void Shoot();
+        IProjectile Shoot();
         void ResetOrientation();
     }
 }

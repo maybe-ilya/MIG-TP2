@@ -33,14 +33,15 @@ namespace MIG.Game.Shooting
 
         public void LookAt(Vector3 position)
         {
-            // ForceVector = (Vector3.forward + position - ShootPoint) * _forceAmount;
-            ForceVector = (Vector3.forward + position) * _forceAmount;
+            ForceVector = (Vector3.forward + position - ShootPoint) * _forceAmount;
         }
 
-        public void Shoot()
+        public IProjectile Shoot()
         {
             _projectile.Launch(ForceVector);
+            var result = _projectile;
             _projectile = null;
+            return result;
         }
 
         public void ResetOrientation()

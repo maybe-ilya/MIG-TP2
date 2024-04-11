@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: -1310545878479192593}
+  _invulnerabilityTimeAfterLaunch: 0.2
 --- !u!135 &5054465683237501910
 SphereCollider:
   m_ObjectHideFlags: 0
