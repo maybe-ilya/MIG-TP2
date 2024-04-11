@@ -7,6 +7,6 @@ namespace MIG.Game
     {
         float Mass { get; }
         void Launch(Vector3 forceVector);
-        event Action OnHit;
+        event Action OnDestroy;
     }
 }

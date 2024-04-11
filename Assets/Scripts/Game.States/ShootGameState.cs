@@ -29,15 +29,15 @@ namespace MIG.Game.States
         {
             _logger.Log(LogChannel, "Shooting");
             var projectile = _projectileShooter.Shoot();
-            await WaitProjectileToHit(projectile);
+            await WaitProjectileToDestroy(projectile);
             _pathVisualiazer.Hide();
             GameStateService.WaitForInput();
         }
 
-        private UniTask WaitProjectileToHit(IProjectile projectile)
+        private UniTask WaitProjectileToDestroy(IProjectile projectile)
         {
             var completionSource = new UniTaskCompletionSource();
-            projectile.OnHit += () => completionSource.TrySetResult();
+            projectile.OnDestroy += () => completionSource.TrySetResult();
             return completionSource.Task;
         }
     }
