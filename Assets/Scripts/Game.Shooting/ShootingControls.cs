@@ -64,7 +64,7 @@ namespace MIG.Game.Shooting
                 {
                     ""name"": """",
                     ""id"": ""0e9f5475-0c28-40df-b029-f1ce06946731"",
-                    ""path"": ""<Touchscreen>/touch0/tap"",
+                    ""path"": ""<Touchscreen>/primaryTouch/press"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Touch;Keyboard&Mouse"",
@@ -86,7 +86,7 @@ namespace MIG.Game.Shooting
                 {
                     ""name"": """",
                     ""id"": ""818cf647-1a16-4685-8503-4c88763b0343"",
-                    ""path"": ""<Touchscreen>/touch0/position"",
+                    ""path"": ""<Touchscreen>/primaryTouch/position"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Touch;Keyboard&Mouse;Gamepad;Joystick;XR"",
